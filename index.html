@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>健康体操アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>健康体操アプリ</h1>
+
+  <!-- 画像表示 -->
+  <img id="mainImage" src="img/standby.png" alt="待機画面">
+
+  <!-- ボタン -->
+  <div class="buttons">
+    <button id="startBtn">スタート</button>
+    <button id="stopBtn">ストップ</button>
+    <button id="endBtn">終了</button>
+  </div>
+
+  <!-- スライダー -->
+  <div class="slider-container">
+    <label for="intervalSlider">テンポ: <span id="intervalValue">1秒</span></label>
+    <input type="range" id="intervalSlider" min="1" max="5" value="1">
+  </div>
+
+<footer style="text-align:center; margin-top:20px; font-size:12px; color:gray;">
+  音声：<a href="https://ondoku3.com" target="_blank">音読さん</a>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

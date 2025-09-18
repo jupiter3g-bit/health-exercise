@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+#mainImage {
+  max-width: 80%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  /*background-color: initial ;*/
+  /*color: initial;*/
+  border: 1px solid black;  /* ü‚Ì‘¾‚³ 2pxAF‚Í• */
+  /*border: none;*/
+  cursor: pointer;
+}
+
+.slider-container {
+  width: 350px;
+  margin: 0 auto;
+}
+#intervalSlider {
+  width: 100%;
+}
